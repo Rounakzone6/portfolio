@@ -3,12 +3,12 @@ import { assets } from "../assets/assets";
 
 const Profile = () => {
   return (
-    <div className="my-6">
-      <p className="font-bold text-2xl md:text-4xl p-4 md:p-0">
+    <div className="my-6 p-4 md:py-4">
+      <p className="font-bold text-2xl md:text-4xl md:p-0">
         Coding Profile
       </p>
-      <div className="flex md:flex-row flex-col gap-4 justify-around items-center">
-        <ul className="flex flex-wrap gap-6 p-4">
+      <div className="flex md:flex-row flex-col gap-4 justify-center items-center">
+        <ul className="flex flex-wrap gap-6 justify-center items-center p-4">
           <li
             onClick={() =>
               window.open("https://leetcode.com/u/rounakgupta750/", "_blank")

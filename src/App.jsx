@@ -30,7 +30,7 @@ const App = () => {
       <Profile />
       <Projects ref={projectsRef} />
       <Skills ref={skillsRef} />
-      <Work ref={workRef} />
+      {/* <Work ref={workRef} /> */}
       <Contact ref={contactRef} />
       <Footer />
     </div>

@@ -6,10 +6,10 @@ import { faGithubAlt } from "@fortawesome/free-brands-svg-icons";
 
 const Projects = forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="my-6">
-      <p className="font-bold text-2xl md:text-4xl p-4 md:p-0">Projects</p>
+    <div ref={ref} className="my-6 p-4 md:py-4">
+      <p className="font-bold text-2xl md:text-4xl md:p-0">Projects</p>
       <div className="flex flex-col md:flex-row my-3 gap-4">
-        <div>
+        <div className="">
           <p className="text-xl mb-2">ScholarNest</p>
           <div className="flex gap-3">
             <span
@@ -44,7 +44,7 @@ const Projects = forwardRef((props, ref) => {
             academic resources, live sessions, and progress tracking available
             at their fingertips.
           </p>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <span className="flex gap-1 px-4 py-1 items-center bg-[#7fffd4] rounded-4xl">
               MongoDB
             </span>
@@ -100,7 +100,7 @@ const Projects = forwardRef((props, ref) => {
             appointments, and manage their medical visits — all in one place,
             from any device.
           </p>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <span className="flex gap-1 px-4 py-1 items-center bg-[#7fffd4] rounded-4xl">
               MongoDB
             </span>
@@ -154,7 +154,7 @@ const Projects = forwardRef((props, ref) => {
             responsive, intuitive, and secure way to browse, buy, and manage
             their fashion needs online.
           </p>
-          <div className="flex gap-3">
+          <div className="flex flex-wrap gap-3">
             <span className="flex gap-1 px-4 py-1 items-center bg-[#7fffd4] rounded-4xl">
               MongoDB
             </span>

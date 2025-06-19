@@ -11,9 +11,9 @@ const Contact = forwardRef((props, ref) => {
     link.click();
   };
   return (
-    <div ref={ref} className="my-6">
-      <p className="font-bold text-2xl md:text-4xl p-4 md:p-0">Contact</p>
-      <div className="flex md:flex-row flex-col gap-6 p-4 justify-around items-center">
+    <div ref={ref} className="my-6 p-4 md:py-4">
+      <p className="font-bold text-2xl md:text-4xl md:p-0">Contact</p>
+      <div className="flex md:flex-row flex-col gap-6 py-4 justify-around items-center">
         <div className="flex md:my-5 flex-col gap-6">
           <p className="font-semibold text-lg">
             Want to get in touch. Contact me on any platform.
